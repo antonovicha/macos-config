@@ -3,7 +3,7 @@
 ## Usage
 
 * Install Karabiner-Elements
-* Copy desired config files from [karabiner](karabiner) `cp *.json ~/.config/karabiner/assets/complex_modifications`
+* Copy desired config files `cp *.json ~/.config/karabiner/assets/complex_modifications`
 
 ## pc-style-shortcuts
 
@@ -33,6 +33,6 @@ Based on [karabiner elements PC Style shortcuts](https://ke-complex-modification
 |Removed|Command+E Opens Finder|
 |Removed|Control+Esc Opens Launchpad|
 
-### TODO
+## Hack shortcuts
 
-* Fn + Arrow keys to Home/End PgUp/PgDwn
+To help rebind Win + Arrow keys, while keeping Command + Arrow keys functional in a system.
