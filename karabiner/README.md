@@ -3,7 +3,7 @@
 ## Usage
 
 * Install Karabiner-Elements
-* Copy desired config files from [karabiner](karabiner) to `~/.config/karabiner/assets/complex_modifications`
+* Copy desired config files from [karabiner](karabiner) `cp *.json ~/.config/karabiner/assets/complex_modifications`
 
 ## pc-style-shortcuts
 
