@@ -1,0 +1,70 @@
+{
+  "title": "App Shortcuts (Aleksei)",
+  "rules": [{
+    "description": "[Ctrl+]F5 to [Shift+]Cmd+R (browsers, SourceTree)",
+    "manipulators": [{
+      "type": "basic",
+      "from": {
+        "key_code": "f5"
+      },
+      "to": [{
+        "key_code": "r",
+        "modifiers": [ "command" ]
+      }],
+      "conditions": [{
+        "type": "frontmost_application_if",
+        "bundle_identifiers": [
+          "^org\\.mozilla\\.firefox$",
+          "^org\\.mozilla\\.nightly$",
+          "^com\\.microsoft\\.Edge",
+          "^com\\.microsoft\\.edgemac",
+          "^com\\.google\\.Chrome$",
+          "^com\\.apple\\.Safari$",
+          "^com.torusknot.SourceTreeNotMAS$"
+        ]
+      }]
+    }, {
+      "type": "basic",
+      "from": {
+        "key_code": "f5",
+        "modifiers": {
+          "mandatory": [ "control" ]
+        }
+      },
+      "to": [{
+        "key_code": "r",
+        "modifiers": [ "command", "shift" ]
+      }],
+      "conditions": [{
+        "type": "frontmost_application_if",
+        "bundle_identifiers": [
+          "^org\\.mozilla\\.firefox$",
+          "^org\\.mozilla\\.nightly$",
+          "^com\\.microsoft\\.Edge",
+          "^com\\.microsoft\\.edgemac",
+          "^com\\.google\\.Chrome$",
+          "^com\\.apple\\.Safari$",
+          "^com.torusknot.SourceTreeNotMAS$"
+        ]
+      }]
+    }]
+  }, {
+    "description": "F12 to Alt+Cmd+I (Chrome Dev Tools)",
+    "manipulators": [{
+      "type": "basic",
+      "from": {
+        "key_code": "f12"
+      },
+      "to": [{
+        "key_code": "i",
+        "modifiers": [ "command", "alt" ]
+      }],
+      "conditions": [{
+        "type": "frontmost_application_if",
+        "bundle_identifiers": [
+          "^com\\.google\\.Chrome$"
+        ]}
+      ]
+    }]
+  }]
+}
