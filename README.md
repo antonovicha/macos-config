@@ -24,7 +24,7 @@ All works on M1 Macs.
 * [Hidden Bar](https://github.com/dwarvesf/hidden) (Win10)
   * Allows to hide menu bar items
 * [BetterDummy](https://github.com/waydabber/BetterDummy)
-  * Let you use HiDPI (or something in between) on none HiDPI displays
+  * Let you use HiDPI (or something in between) on none HiDPI displays (for example 1440p)
 
 ## Less, but still usefull utilities
 
