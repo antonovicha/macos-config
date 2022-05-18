@@ -8,10 +8,12 @@ Configuration of MacOs to act close to Win.
 * Copy desired config files from [karabiner](karabiner) `cp karabiner/*.json ~/.config/karabiner/assets/complex_modifications`
 * See [karabiner dir docs](karabiner/README.md) for details
 
-## Usefull utilities
-
 Legend:
 (Win10) - feature similar to or inspired by Win10 built in functionality.
+
+## Usefull utilities
+
+All works on M1 Macs.
 
 * [Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements)
   * Lets you to modify key combinations to another. I.e. Fn -> Ctrl, Ctrl+PgUp -> Cmd+Up
@@ -21,6 +23,11 @@ Legend:
   * Add window snapping to screen sides / corners. Have keyboard shortcuts too
 * [Hidden Bar](https://github.com/dwarvesf/hidden) (Win10)
   * Allows to hide menu bar items
+* [BetterDummy](https://github.com/waydabber/BetterDummy)
+  * Let you use HiDPI (or something in between) on none HiDPI displays
+
+## Less, but still usefull utilities
+
 * [Itsycal](https://www.mowglii.com/itsycal/) (Win10)
   * Menubar calendar which also can serve as clock replacement
 * [DockMate](https://www.macenhance.com/dockmate) (Win10) Paid ~12.5€
