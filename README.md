@@ -25,6 +25,10 @@ All works on M1 Macs.
   * Allows to hide menu bar items
 * [BetterDummy](https://github.com/waydabber/BetterDummy)
   * Let you use HiDPI (or something in between) on none HiDPI displays (for example 1440p)
+   * Download latest open source version: https://github.com/waydabber/BetterDummy/releases/tag/v1.0.13
+   * Create new dummy for target monitor
+   * Go to MacOS display preferences and mark target monitor as mirror for Dummy
+   * Adjust scaling both for dummy and real display? Kinda confusing here why both should be adjusted.
 
 ## Less, but still usefull utilities
 
